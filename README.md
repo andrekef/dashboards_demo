@@ -1,6 +1,6 @@
 # Pivotal Analytics Dashboard
 
-Welcome to the Pivotal Analytics Dashboard project! This project aims to provide insightful analytics and visualizations for Pivotal data through a customizable dashboard. It leverages Python scripts to interact with the Pivotal APIs, SQLite for data storage and manipulation, and Grafana for visualization and dashboard creation.
+Welcome to my Project Management Analytics Dashboard project! This aims to provide insightful analytics and visualizations for Pivotal Tracker API data through a customizable dashboard build in Grafan. It leverages Python scripts to interact with the Pivotal APIs, good ol' SQLite for data storage, some data wrangling, and Grafana for visualization and dashboard generation.
 
 Live Dashboard [link](https://andrekef.github.io/dashboards_demo.github.io/) here hosted over at GH pages
 
