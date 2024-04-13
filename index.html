@@ -3,25 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pivotal Analytics Dashboard</title>
+    <title>Embedded Chart</title>
 </head>
 <body>
-    <h1>Pivotal Tracker Analytics Dashboard</h1>
+    <h1>Embedded Chart</h1>
     
-    <div>
-        <h2>Welcome to the Pivotal Analytics Dashboard project!</h2>
-        <p>This project aims to provide insightful analytics and visualizations for Pivotal data through a customizable dashboard. It leverages Python scripts to interact with the Pivotal APIs, SQLite for data storage and manipulation, and Grafana for visualization and dashboard creation.</p>
-    </div>
-
-    <!-- Display embedded dashboard -->
-    <div>
-        <h2>Key Metrics</h2>
-        <iframe src="https://snapshots.raintank.io/dashboard/snapshot/k7MtumBzfhTd9aG1ZsZHF5H5cbxsqz1o" width="100%" height="800px"></iframe>
-        <h2>Table Chart</h2>
-        <iframe src="https://snapshots.raintank.io/dashboard/snapshot/uIQh9ikzcdJeJixHw7XjBjJoVr6ypyFC" width="100%" height="800px"></iframe>
-         <h2>Line Charts</h2>
-        <!-- Replace this iframe with the embedded chart -->
-        <iframe width="600" height="400" seamless frameborder="0" scrolling="no" src="http://localhost:8088/superset/explore/p/Rr3gEJPA62k/?standalone=1&height=400"></iframe>
-    </div>
+    <!-- Embedding the chart using an iframe -->
+    <iframe
+        width="600"
+        height="400"
+        seamless
+        frameborder="0"
+        scrolling="no"
+        src="https://data-alpha.trusolutions.com/superset/explore/p/bvlOpG3nrg3/?standalone=1&height=400"
+    ></iframe>
 </body>
 </html>
